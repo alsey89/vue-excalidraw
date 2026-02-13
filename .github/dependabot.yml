@@ -27,7 +27,13 @@ updates:
           - 'typescript'
           - 'eslint'
           - 'eslint-*'
+          - '@eslint/*'
           - 'prettier'
           - 'unbuild'
           - '@types/node'
           - 'jsdom'
+    ignore:
+      - dependency-name: 'eslint'
+        versions: ['>=10']
+      - dependency-name: '@eslint/js'
+        versions: ['>=10']
