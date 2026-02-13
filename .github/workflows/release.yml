@@ -26,9 +26,7 @@ jobs:
 
       - run: npm test
 
-      - run: npm publish --workspaces --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish --workspaces --access public --provenance
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
