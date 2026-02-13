@@ -74,6 +74,17 @@ describe('excalidrawVitePlugin', () => {
     expect(config.define['globalThis.EXCALIDRAW_ASSET_PATH']).toBeUndefined()
   })
 
+  it('includes react plugins from @vitejs/plugin-react', () => {
+    const plugins = excalidrawVitePlugin()
+    const pluginNames = plugins.map((p) => p.name)
+    // First plugin is our config plugin
+    expect(pluginNames[0]).toBe('vue-excalidraw:config')
+    // Remaining plugins come from @vitejs/plugin-react
+    const reactPluginNames = pluginNames.slice(1)
+    expect(reactPluginNames.length).toBeGreaterThan(0)
+    expect(reactPluginNames.some((name) => name?.includes('react'))).toBe(true)
+  })
+
   it('merges with existing config without clobbering', () => {
     const plugins = excalidrawVitePlugin()
     const plugin = plugins[0]
