@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "paths": {
+      "vue-excalidraw": ["../core/src/index"],
+      "vue-excalidraw/vite": ["../core/src/vite"]
+    }
+  },
+  "include": ["src/**/*"]
+}

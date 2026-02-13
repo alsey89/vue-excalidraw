@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.output/
+.nuxt/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Lock files (keep package-lock.json, ignore others)
+pnpm-lock.yaml
+yarn.lock
+
+# Build cache
+.turbo/
+
+*.tgz
