@@ -7,17 +7,17 @@ updates:
     groups:
       vue-ecosystem:
         patterns:
-          - "vue"
-          - "vue-tsc"
-          - "nuxt"
-          - "@nuxt/*"
-          - "@vue/*"
+          - 'vue'
+          - 'vue-tsc'
+          - 'nuxt'
+          - '@nuxt/*'
+          - '@vue/*'
       excalidraw:
         patterns:
-          - "@excalidraw/*"
+          - '@excalidraw/*'
       react:
         patterns:
-          - "react"
-          - "react-dom"
-          - "@types/react"
-          - "@types/react-dom"
+          - 'react'
+          - 'react-dom'
+          - '@types/react'
+          - '@types/react-dom'
