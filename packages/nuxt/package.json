@@ -21,7 +21,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.21.1",
+    "@nuxt/kit": "^4.3.1",
     "vue-excalidraw": "^0.1.0"
   },
   "peerDependencies": {
@@ -31,9 +31,9 @@
   },
   "devDependencies": {
     "@excalidraw/excalidraw": "^0.18.0",
-    "@nuxt/module-builder": "^0.8.0",
-    "@nuxt/schema": "^3.21.1",
-    "nuxt": "^3.14.0",
+    "@nuxt/module-builder": "^1.0.2",
+    "@nuxt/schema": "^4.3.1",
+    "nuxt": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
