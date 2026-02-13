@@ -28,7 +28,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.7.0"
+    "@vitejs/plugin-react": "^5.1.4"
   },
   "peerDependencies": {
     "@excalidraw/excalidraw": "^0.18.0",
